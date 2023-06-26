@@ -1,0 +1,529 @@
+.topr{
+    float: right;
+    font-size: 12px;
+    }
+     
+    .toplf{
+        font-size: 13px;
+        color: rgb(26, 23, 23);
+        padding: 10px 60px;
+    }
+    .toplf ul li {
+        color:rgb(15, 1, 1) ;
+        float: left;
+        padding-left: 16px;
+    }
+    .home ul{
+        display:flex;
+        list-style-type: none;
+        padding:  2px 10px;
+    }
+    .home ul li{
+        padding:5px 10px;
+    }
+    .top{
+        background-color: #f5f5f5;
+    }
+    .logg a{
+        text-decoration: none;
+        font-size: 14px
+    }
+    .topr a{
+      padding: 5px 10px;
+        color: rgb(3, 3, 3);
+        margin-top: 10px;
+        float: left;
+    }
+   .lang{
+    margin-top:5px ;
+    color: rgb(26, 23, 23);
+    float: left;
+    padding: 10px;
+   }
+   .lang a{
+    text-decoration: none;
+    font-size: 13px;
+   }
+   .cardme ul {
+      padding:10px;
+      padding-left: 10px;
+   
+   }
+   .cardme ul li a{
+    padding-left: 20px;
+   }
+   .cardme{
+    
+   display: flex;
+   float: left;
+    
+    color: rgb(26, 23, 23) ;
+  font-size: 14px;
+  
+   }
+   .cardme a{
+      color:  rgb(26, 23, 23);
+}
+.cardme ul   li  a span{
+    background-color: #7fad39;
+    height: 13px;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    line-height: 13px;
+    width: 13px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+.cardpr{
+    margin-top: 10px;
+    padding: 0 5px;
+}
+.cardpr span{
+    font-weight: 700
+
+}
+
+#ca{
+text-align: center;
+}
+
+
+.header_menu ul li{
+   text-transform: uppercase;
+   list-style-type: none;
+   font-size: 14px;
+   margin: 10px;
+}
+
+.header_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.header_menu ul li :hover{
+    color: #7fad39;
+
+}
+.header_menu ul li.active a{
+    color: #7fad39;
+}
+.lo{
+    margin-top: 15x;
+}
+.headall{
+    margin: 5px;
+   
+}
+.ht{
+
+    background-color: #7fad39;
+    position: relative;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+  text-align: center;
+}
+.headall ul li{
+    padding: 12px 5px;
+    list-style-type: none;
+}
+.headall ul{
+    display: block;
+    font-size: 19px;
+    border: 1px  rgb(226, 224, 224) solid;
+     padding: 2px 0;
+     
+}
+ul li{
+    list-style-type: none;
+}
+.headall ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-weight: 500;
+    
+   
+}
+.full{
+
+    width: 619px;
+    height: 50px;
+    border: 1px solid  #ebebeb;
+    float:left;
+    position: relative;
+}
+.cat{
+    font-size: 16px;
+    float: left;
+    width: 30%;
+    font-weight: 700;
+    padding-left: 18px;
+    padding-top: 10px;
+    position: relative;
+}
+.cat:after{
+    position: absolute;
+    right: 4px;
+    top: 14px;
+    height: 20px;
+    width: 1px;
+    background-color:rgb(156, 143, 143);
+    content:"";
+}
+
+#in{
+    
+      height: 30px;
+     margin: 10px  20px;
+     width: 150px;
+     border: none;
+     font-size: 15px;
+}
+button{
+    position: absolute;
+    right: 0;
+    font-size: 50px;
+    background-color:#7fad39;
+    width: 100px;
+    height: 50px;
+    float:right;
+    border: none;
+
+}
+.site-btn {
+    color:white;
+    font-size: 12px;
+    font-weight:700;
+}
+.lol{
+    background-color:#f5f5f5  ;
+    color: #7fad39;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 18px;
+   font-size: 14px;
+   margin-left: 10px;
+}
+.num{
+    float: right;
+    height: 50px;
+    width: 150px;
+    font-size: 13px;
+    
+    margin-top: 10px;
+
+}
+.num h5{
+    font-weight: 800;
+    font-size: 16px;
+}
+.im{
+    background-image: url("lll.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+    width:890px;
+    background-position: 0lvh;
+    margin: 30px;
+   
+   position: relative;
+
+}
+.text{
+   
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#hh{
+    font-weight: 800;
+    font-size: 32px;
+}
+.text span {
+    color: #7fad39;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.text p{
+    color:rgb(156, 143, 143) ;
+   text-shadow: 1px 1px 1px white;
+   margin-bottom: 20px;
+}   
+.text a{
+    text-decoration: none;
+    color:white;
+    font-weight: 800;
+    background-color:#7fad39;
+    border: 1px solid;
+    padding: 10px;
+       margin-top: 40px;
+
+}
+.card{
+    margin: 5px;
+    margin-top: 30px;
+}
+.card h1{
+    position: absolute;
+    background-color: white;
+  font-weight: 600;
+    left:50px;
+    width: 60%;
+    padding: 10px 20px;
+    bottom: 10px;
+    text-align: center;
+}
+#product h1{
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+#product{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+   
+}
+#product ul {
+    justify-content: center;
+    align-items: center;
+   font-size: 20px;
+   margin: 30px;
+   display: inline-flex;
+   
+}
+ #product ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    
+ }
+
+#product h1::after{
+     position: absolute;
+    left: 0;
+    bottom:-15px;
+    right: 0;
+    height: px;
+    width: 90px;
+    background-color:#7fad39 ;
+    content:""; 
+    margin:  0 auto;
+
+
+}
+/* */
+
+
+.list-icons{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.list-icons li {
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+    margin-top: 230px;
+    
+}
+.list-icons li a  i{
+    color: #080707;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.list-icons li i:hover{
+    
+    color: white;
+    width: 10px;
+    height: 10px;
+    background-color:#7fad39 ;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 10px;
+    
+}
+.list-icons :hover{
+    animation: animName 1s ease-in-out ;
+}
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+   
+
+
+
+.list-img{
+    background-image: url("feature-8.jpg");
+    height:270px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.con h1, h3{
+    text-align: center;
+    margin-top: 9px;
+
+
+}
+
+
+   
+   .c h1{
+    font-weight: 700;
+    margin: 20px;
+    
+   }
+ .ss{
+    font-weight: 700;
+    color:black;
+   
+ }
+.c span {
+    margin: 10px;
+    font-size: 20px;
+  
+}
+.c img{
+    background-position: center center;
+}
+
+    #myh{
+        text-align: center;
+         font-size: 40px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+      padding: 10px;
+      font-weight: 700;
+      position: relative;
+        }
+        #myh::after{
+     position: absolute;
+    left: 1px;
+    bottom: -15px;
+    right: 1px;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 15px auto;
+        }
+
+.coco span  {
+    font-size: 18px;
+    color: #5c5959;
+    padding: 10px 5px;
+}
+.coco i{
+  font-size: 15px;
+  color: #5c5959;
+
+}
+.coco h2{
+    margin:10px 2px;
+    font-weight: 700;
+}
+.myimg{
+justify-content: space-between;
+margin-left: -30px;
+}
+  footer{
+    background-color: #F3F6FA;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    height: 400px;
+  }
+  .lo{
+    margin-bottom: 20px;
+  }
+ .list ul li {
+    font-size: 15px;
+    color: black;
+    padding-bottom: 8px;
+ }
+ .usefull h4{
+    color: black;
+    font-weight: 700px;
+    margin-bottom: 20PX;
+    font-size: 19px;
+
+ }
+ .usefull ul{
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    
+ }
+ .usefull ul li {
+    padding-bottom: 8px;
+ }
+.foo{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.foo h3{
+    font-weight: 700;
+   margin-bottom: 20px;
+   margin-right: 130px;
+
+
+}
+.foo span{
+    color: #080707;
+    margin: 40px;
+    font-size: 14px;
+
+}
+.foo form{
+   position: relative;
+   margin: 30px;
+}
+.foo form input{
+
+     width: 100%;
+     font-size: 16px;
+     padding-left: 20px;
+     color: #080707;
+     height: 46px;
+     border: 1px solid #ededed;
+}
+.foo form button{
+    position:absolute;
+    right: 0;
+    top: 0;
+    padding: 0 26px;
+    height: 100%;
+}
+.foo a i {
+    color: #3a3939;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    margin: 14px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+        
+}
